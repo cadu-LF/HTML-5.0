@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: rgb(0, 0, 0);
+    background: rgb(124, 124, 124);/**cor verde mais externa*/
+    font-family: "Calibri";
+}
+
+.menu img{
+    width: 80px; /** dimensao da img*/
+    position: absolute; /**posicao absoluta da img*/
+    margin-top: 20px; /**distancia entre a img e o azul*/
+}
+
+.menu{
+    padding-left: 20px; /**DISTANCA ENTRE A CAIXA AZUL E ALGUM ELEMENTO PERTO DA BORDA ESQUERDA*/
+    padding-right: 30px; /**DISTANCA ENTRE A CAIXA AZUL E ALGUM ELEMENTO PERTO DA BORDA DIREITA*/
+    margin-bottom: 10px;
+    height: 120px; /**comprimento vertical da caixa azul*/   
+    background: rgb(199, 199, 199);
+    
+}
+
+.menu li a{
+    text-decoration: none;/**decoracao do hyperlink*/
+    color: rgb(0, 0, 0);
+}
+
+.menu li{
+    display: inline-block; /**mostrar o texto em linha e em bloco*/
+    padding: 10px 40px; /**10px de distancia da caixa azul e 20px de distancia entre os li*/
+    margin-left: 160px; /**distancia de 100px entre a caixa azul e o inicio dos itens*/
+    margin-top: 35px; /**distancia entre os itens e o topo da caixa azul*/
+    border-radius: 15px;
+    border: solid rgb(255, 0, 0);
+}
+
+.login, .cadastrar, .enter{
+    float: right;
+    padding: 0px 5px;
+}
+
+.conteudo {
+    margin: 0px 70px; /**distancia entre o bloco laranja e verde*/
+    background: rgb(255, 255, 255); 
+    padding: 20px 20px; /**espaço entre a caixa laranja e os elementos q estao dentro dela*/
+}
+
+section img{
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 30px;
+}
+
+article{
+    padding: 15px 100px;
+}
+
+p{
+    padding: 5px 15px;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+h1{
+    margin-top: 50px;
+    padding: 0px 10px;
+    font-family: "Agency FB";
+    font-size: 50px;
+}
+
+h2{
+    background: rgb(0, 46, 145);
+    text-align: center;
+    margin-top: 100px;
+    border: solid;
+    font-family: "Agency FB";
+    font-size: 35px;
+}
+
+h3, h2{
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    margin-top: 30px;
+    background:rgb(0, 46, 145);
+    width: 10%;
+    font-family: "Agency FB";
+    font-size: 25px;
+}
+
+form{
+    margin-top: 60px;
+}
+footer{
+    background: rgb(0, 46, 145);
+    color: rgb(255, 255, 255);
+}
+
+form input{
+    margin-top: 30px;
+    margin-bottom: 30px;    
+    width: 1100px;
+    height: 40px;
+}
+
+form button{
+    margin-bottom: 15px;
+}
+
+footer img{
+    width: 50px;
+    float: right;
+    padding: 0px 10px;
+    margin: 10px;
+}
+
+button{
+    padding: 3px 3px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial;
+}
+
+.white{
+    margin: 30px 10px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+}
